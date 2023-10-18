@@ -1,0 +1,3 @@
+[submodule "src/example/coral/examples-camera"]
+	path = src/example/coral/examples-camera
+	url = https://github.com/google-coral/examples-camera.git
