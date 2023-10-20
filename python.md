@@ -60,8 +60,6 @@
     ```
 
 ---
-hideInToc: true
----
 
 # Visual Studio Code
 
@@ -74,7 +72,7 @@ hideInToc: true
 
 # Jupyter Notebooks
 
-<img src="Jupyter.png" style="height: 300px">
+<img src="public/Jupyter.png" style="height: 300px">
 
 [Try Jupyter Online](https://jupyter.org/try-jupyter/lab/)
 
