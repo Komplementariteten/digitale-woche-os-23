@@ -29,9 +29,6 @@ pip install 'package_name'
 ```
 
 ---
-hideInToc: true
-transition: fade
----
 
 # Pakete nutzen
 <br/>
@@ -51,9 +48,7 @@ Ausgabe:
 ```
 
 ---
-hideInToc: true
-transition: fade
----
+
 
 # Pakete nutzen
 <br/>
@@ -87,8 +82,6 @@ Code mit Web-Interpreter öffnen: <a href = "https://trinket.io/pygame/b118fa028
 Code verfügbar auf <br/>
  <a href = "https://github.com/afey89/python_workshop_2023/tree/main/src/pygame_example"> https://github.com/afey89/python_workshop_2023/tree/main/src/pygame_example </a>
 
----
-hideInToc: True
 ---
 
 # Beispiel Datenanalyse

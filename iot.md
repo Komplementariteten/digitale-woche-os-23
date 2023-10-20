@@ -382,8 +382,7 @@ Toolset providing a python API to sepcific Boards like:
 * SAMD21/SAMD51
 
 ---
-hideInToc: true
----
+
 
 ### BBC micro:bit v2 Example
 
@@ -416,8 +415,7 @@ Auf TensorFlow spezialisierter Beschleuniger-Microcontroller.
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/TPU_v4.png/800px-TPU_v4.png" style="height:250px" />
 
 ---
-hideInToc: true
----
+
 
 ## Tensor?
 <br />
@@ -442,8 +440,7 @@ tf.float32
 ```
 
 ---
-hideInToc: true
----
+
 
 ## Hands on
 
@@ -467,8 +464,7 @@ $\hat{p}(X) = \frac{e^{\beta_0+\beta_1X}}{1+e^{\beta_0+\beta_1X}}$
 [Example](../src/ml_logreg/main.py)
 
 ---
-hideInToc: true
----
+
 
 # Hands On
 
@@ -510,8 +506,6 @@ model = keras.Sequential([
 
 ```
 ---
-hideInToc: true
----
 
 ## Convolutional Neural Networks (CNN)
 
@@ -523,8 +517,6 @@ hideInToc: true
 - Filter
 
 ---
-hideInToc: true
----
 
 ## Model requirements Coral TPU
 
@@ -535,8 +527,6 @@ hideInToc: true
 * 1-,2-, oder 3- Dimensionale Tensoren
 * Edge TPU unterstütze Tensor Operationen
 
----
-hideInToc: true
 ---
 
 ## Workflow
@@ -557,57 +547,6 @@ flowchart TB
     end
 ```
 ---
-hideInToc: true
----
-
-<style>
-  .code-example {
-    border-bottom-width: 0 !important;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 60px;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .code-example:hover .code-left {
-    animation-name: left;
-    animation-duration: 500ms;
-  }
-
-  .code-example:hover .code-center {
-    animation-name: center;
-    animation-duration: 500ms;
-  }
-
-  .code-example:hover .code-right {
-    animation-name: right;
-    animation-duration: 500ms;
-  }
-
-  @keyframes left {
-    0% {transform: translateX(0)}
-    75% {transform: translateX(-20px)}
-    100% {transform: translateX(0)}
-  }
-
-  @keyframes right {
-    0% {transform: translateX(0)}
-    75% {transform: translateX(20px)}
-    100% {transform: translateX(0)}
-  }
-
-  @keyframes center {
-    0% {transform: scale(1)}
-    75% {transform: scale(1.5)}
-    100% {transform: scale(1)}
-  }
-
-</style>
-
 # Hands on
 
 <a class="code-example" target="_blank">
@@ -655,8 +594,6 @@ hideInToc: true
 
 </div>
 
-<PageNr/>
-
 ---
 
-<img src="/pizza.png" style="vertical-position:center; height:98%" />
+<img src="public/pizza.png" style="vertical-position:center; height:98%" />
