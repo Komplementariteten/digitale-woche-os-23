@@ -359,13 +359,3 @@ print(john.__str__())
 ```
 
 ---
-
-
-# Programmierbeispiel
-
-<a class="code-example" href="https://jupyter.org/try-jupyter/lab/" target="_blank">
-  <p class="code-left" >&#60;</p>
-  <p class="code-center" >/</p>
-  <p class="code-right" >&#62;</p>
-  <br/>
-</a>
