@@ -1,123 +1,42 @@
-
-<style>
-  .embedded-picture {
-    position: relative;
-    max-width: 400px;
-    max-height: 60%;
-    margin: auto;
-  }
-  .hardware-picture {
-    position: relative;
-    width: 40%;
-    float: right;
-    margin-right: 10%;
-  }
-  .coral-picture {
-    position: relative;
-    width: 55%;
-    float: right;
-    margin-right: 5%;
-    margin-top: -2em;
-  }
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-    color: black;
-  }
-
-  tr:nth-child(odd) {
-    background-color: #bbb;
-    color: black;
-  }
-
-  th {
-    background-color: lightblue;
-  }
-  
-  .styled-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.8em;
-    font-family: sans-serif;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  }
-  .styled-table thead tr {
-    background-color: #1394d9;
-    color: #ffffff;
-    text-align: left;
-    font-weight: bold;
-    font-size: 1.1em
-  }
-  .styled-table th,
-  .styled-table td {
-    padding: 6px 15px !important;
-  }
-  .styled-table tbody tr {
-    border-bottom: 1px solid #dddddd;
-  }
-  .styled-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-  }
-  .styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #1394d9;
-  }
-  .styled-table tbody tr.active-row {
-    font-weight: bold;
-    color: #1394d9;
-  }
-  td:first-child {
-    font-weight: bold
-  }
-</style>
-
 # IoT? Embedded
 <br />
 Unter dem Stichwort Embedded werden meistens Geräte verstanden die für spezielle Anwendungen designed werden, jedoch mindestens eine APU (Application Processing Unit) oder MCU (Micro-Controller) genannt haben und angeschlossene Geräte wie etwa Sensoren steuern. <br /> 
 <br /> 
 Durch die Makerscene und Projekten wie Arduino oder RaspberryPi ist das Entwickeln von Embedded Anwendungen heute nicht mehr nur möglich für Ingenieur_Innen oder Informatiker_Innen, sondern gibt es viele Möglichkeiten für Hobby Projekte einen Einstieg in das Thema zu finden. 
 ---
-hideInToc: true
----
 
 # Roboter  
 
-<img src="/Welding_Robot_resized.jpg" alt = "Welding robot" class = "embedded-picture"/>
+<img src="public/Welding_Robot_resized.jpg" alt = "Welding robot" class = "embedded-picture"/>
 
 Hier spielen eine vielzahl von Sensoren mit der Steuerung der Motoren des Roboters zusammen. <br /> Machine Learning oder Deep Learning kommen zum Einsatz um den Steuerungsprozess zu vereinfachen. <br /> Aber Vorsicht, das Entwickeln solcher Ansätze ist sehr aufwändig.
 
 ---
-hideInToc: true
----
 
 # Autos
 
-<img src="/Car.jpg" alt = "Open car" class = "embedded-picture"/>
+<img src="public/Car.jpg" alt = "Open car" class = "embedded-picture"/>
 <br>
 Embedded Systeme existieren etwa in der Motorsteuerung, Assistenz-Systemen oder Infotainment.
 
 ---
-hideInToc: true
----
+
 
 # Haushaltsgeräten
-<img src="/smart-home.jpg" alt = "smart home" class = "embedded-picture"/>
+<img src="public/smart-home.jpg" alt = "smart home" class = "embedded-picture"/>
 <br>
 
 "smarten" Öfen, Kühlschränken und Küchenmaschinen...
 
 ---
-hideInToc: true
----
 
 # Öffentliche Infrastruktur
 
-<img src="/IoT-LoRaWAN-GDR-Io-Gas-im-Schaltschrank.webp" alt = "LoRaWAN" class = "embedded-picture"/>
+<img src="public/IoT-LoRaWAN-GDR-Io-Gas-im-Schaltschrank.webp" alt = "LoRaWAN" class = "embedded-picture"/>
 <div class = "text-center" style="font-size:12px"> © SWO Netz GmbH / M.K </div>
 
 bei Parkplatzüberwachung, Ampelsteuerung, Umspannwerken, oder Durchflussüberwachung für Wasser oder Gasleitungen.
 
----
-hideInToc: true
 ---
 
 # BBC micro:bit v2
@@ -125,7 +44,7 @@ hideInToc: true
 <br />
 Gerade für Menschen die etwas Erfahrung mit Python (aber auch in anderen Sprachen wie Rust oder C) gesammelt haben und sich in der Embedded Entwicklung versuchen wollen, ist der micro:bit ein sehr guter Einstieg.
 
-<img src="/MICROBIT_V2_01.jpg" alt = "micro:bit v2" class = "hardware-picture"/>
+<img src="public/MICROBIT_V2_01.jpg" alt = "micro:bit v2" class = "hardware-picture"/>
 
 <br>
 <br>
@@ -136,8 +55,6 @@ Gerade für Menschen die etwas Erfahrung mit Python (aber auch in anderen Sprach
 * Einfach zu nutzendes Programmier Interface
 * Gute Dokumentation
 
----
-hideInToc: true
 ---
 
 ## Specs BBC micro:bit v2
@@ -200,8 +117,6 @@ hideInToc: true
 </table>
 
 ---
-hideInToc: true
----
 
 # Raspberry Pi Pico
 
@@ -218,8 +133,6 @@ Kleiner, sparsamer Microcontroller. Vielfältig da viele IO Aus- und Eingänge.
 * Micropython
 * Gute Dokumentation
 
----
-hideInToc: true
 ---
 
 ## Raspberry Pi Pico
@@ -262,8 +175,7 @@ hideInToc: true
 </table>
 
 ---
-hideInToc: true
----
+
 # Raspberry PI 4 Model B
 Vergleichbar mit Homecomputer, mit GPU und Betriebssystem.
 
@@ -282,8 +194,7 @@ Vergleichbar mit Homecomputer, mit GPU und Betriebssystem.
 * 64 bit
 
 ---
-hideInToc: true
----
+
 
 ## Specs Raspberry PI 4 Model B
 <table class="styled-table">
@@ -340,8 +251,7 @@ hideInToc: true
 </table>
 
 ---
-hideInToc: true
----
+
 
 # Coral Dev Board Micro
 
@@ -349,7 +259,7 @@ Auf Machine Learning spezialisiertes Board. Später mehr dazu.
 
 <br>
 
-<img src="/coral_hand.png" alt = "Coral Micro" class = "coral-picture"/>
+<img src="public/coral_hand.png" alt = "Coral Micro" class = "coral-picture"/>
 
 <br>
 <br>
@@ -438,8 +348,7 @@ flowchart TD
 </div>
 
 ---
-hideInToc: true
----
+
 
 ## Getting Started🚀
 
@@ -453,7 +362,7 @@ hideInToc: true
 <br />
 ### micro:bit v2 
 - Visual Studio Code extension
-<img src="vsc-micro-bit.png" alt="Micro:bit Extension" style="height:120px;">
+<img src="public/vsc-micro-bit.png" alt="Micro:bit Extension" style="height:120px;">
 
 ---
 
