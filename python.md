@@ -34,8 +34,6 @@
 -->
 
 ---
-showInToc: false
----
 
 # Entwicklungsumgebung aufsetzen
 
@@ -72,10 +70,6 @@ hideInToc: true
   - Windows / Mac OS: [https://code.visualstudio.com](https://code.visualstudio.com/)
   - Linux See: [https://code.visualstudio.com/docs/setup/linux](https://code.visualstudio.com/docs/setup/linux)
 
-<PageNr/>
-
----
-hideInToc: true
 ---
 
 # Jupyter Notebooks
@@ -84,10 +78,7 @@ hideInToc: true
 
 [Try Jupyter Online](https://jupyter.org/try-jupyter/lab/)
 
-<PageNr/>
 
----
-transition: fade
 ---
 
 # Python Grundlagen
@@ -110,17 +101,11 @@ transition: fade
   g = { "Name": "Steve", "Alter": "19", "Addresse": "Musterstraße 123" } # dict
   ```
 
-<PageNr/>
-
----
-hideInToc: true
-transition: fade
 ---
 
 # Python Grundlagen
 
 - Ausgabe
-  <v-click>
 
   ```py
   print("Hello, World!")
@@ -128,9 +113,7 @@ transition: fade
   ```
 
   <br/>
-  </v-click>
 
-  <v-click>
 
   ```py
   a = 34
@@ -139,26 +122,19 @@ transition: fade
   ```
 
   <br/>
-  </v-click>
 
-  <v-click>
 
   ```py
   name = "James"
   print (f"Der Name ist {name}")
   # => Der Name ist James
   ```
-  </v-click>
-<PageNr/>
----
-hideInToc: true
-transition: fade
+
 ---
 
 # Python Grundlagen
 
 - Operatoren
-  <v-click>
   
   ```py
   a + b # Addition
@@ -172,9 +148,6 @@ transition: fade
   ```
 
   <br/>
-  </v-click>
-
-  <v-click>
 
   ```py
   a or b # Oder
@@ -188,20 +161,12 @@ transition: fade
   a == b # Gleich
   a != b # Ungleich
   ```
-  </v-click>
 
-<PageNr/>
-
----
-hideInToc: true
-transition: fade
 ---
 
 # Python Grundlagen
 
 - Zuweisungen
-
-  <v-click>
 
   ```py
   a = 3
@@ -212,11 +177,7 @@ transition: fade
   # => 5
   ```
 
-  </v-click>
-
   <br/>
-
-  <v-click>
 
   ```py
   a = 7
@@ -229,21 +190,13 @@ transition: fade
   # => 4
   ```
 
-  </v-click>
-
-<PageNr/>
-
----
-hideInToc: true
-transition: fade
 ---
 
 # Python Grundlagen
 
 - Kontrollfluss
-  <v-click>
 
-  - Bedingte Anweisungen:
+- Bedingte Anweisungen:
 
   ```py
   alter = 5
@@ -257,10 +210,6 @@ transition: fade
   # => Kind
   ```
 
-  </v-click>
-
-  <v-click>
-
   - Auswahl Operator
 
   ```py
@@ -270,20 +219,13 @@ transition: fade
   # => Status: Erwachsen
   ```
 
-  </v-click>
-<PageNr/>
----
-hideInToc: true
-transition: fade
 ---
 
 # Python Grundlagen
 
 - Kontrollfluss
 
-  <v-click>
-
-  - 'While'-Schleife:
+- 'While'-Schleife:
 
   ```py
   zaehler = 10
@@ -292,10 +234,6 @@ transition: fade
     zaehler -= 1
   # => 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 
   ```
-
-  </v-click>
-
-  <v-click>
 
   - 'For'- Schleife:
 
@@ -306,9 +244,6 @@ transition: fade
   # => Susanne, Elisa, Bert, Jan, 
   ```
 
-  </v-click>
-
-  <v-click>
 
   - List Comprehensions:
 
@@ -319,20 +254,13 @@ transition: fade
   # => [1, 4, 9, 16, 25]
   ```
   
-  </v-click>
-
-<PageNr/>
-
----
-hideInToc: true
-transition: fade
+  
 ---
 
 # Python Grundlagen
 
 - Kontrollfluss
   - Schleifensteuerung:
-    <v-click>
 
     - break:
 
@@ -346,11 +274,6 @@ transition: fade
     print("Ist", zahl, "eine Pimzahl:", isPrime)
     # => Ist 8 eine Pimzahl: False
     ```
-
-    </v-click>
-
-    <v-click>
-
     - continue:
 
     ```py
@@ -362,21 +285,13 @@ transition: fade
     # => 3, 45, 5, 9, 
     ```
 
-    </v-click>
-
-<PageNr/>
-
----
-hideInToc: true
-transition: fade
+   
 ---
 
 # Python Grundlagen
 
 - Kontrollfluss
   - Funktionen:
-
-  <v-click>
 
   ```py
   def add(a, b):
@@ -389,10 +304,7 @@ transition: fade
   
   <br/>
 
-  </v-click>
-
-  <v-click>
-
+ 
   ```py
   def fibonacci(n):
     if n <= 2:
@@ -403,27 +315,13 @@ transition: fade
   # => 4
   ```
 
-  </v-click>
-
-<PageNr/>
----
-hideInToc: true
-transition: slide-left
-clicks: 1
 ---
 
 
 # Python Grundlagen
 
-<style>
-  .slidev-vclick-hidden {
-    height: 0;
-  }
-</style>
 
 - Klassen:
-
-<div v-click-hide="1">
 
 ```py
 class Person:
@@ -437,10 +335,6 @@ print(f"Die Person heißt {john.first_name} {john.last_name} und ist {john.age} 
 # => Die Person heißt John Doe und ist 37 Jahre alt
 
 ```
-
-</div>
-
-<div v-click="1">
 
 ```py
 class Person:
@@ -466,60 +360,8 @@ print(john.__str__())
 # => John ist 38 Jahre alt
 ```
 
-</div>
-
-<PageNr/>
----
-transition: slide-up
 ---
 
-<style>
-  .code-example {
-    border-bottom-width: 0 !important;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 60px;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .code-example:hover .code-left {
-    animation-name: left;
-    animation-duration: 500ms;
-  }
-
-  .code-example:hover .code-center {
-    animation-name: center;
-    animation-duration: 500ms;
-  }
-
-  .code-example:hover .code-right {
-    animation-name: right;
-    animation-duration: 500ms;
-  }
-
-  @keyframes left {
-    0% {transform: translateX(0)}
-    75% {transform: translateX(-20px)}
-    100% {transform: translateX(0)}
-  }
-
-  @keyframes right {
-    0% {transform: translateX(0)}
-    75% {transform: translateX(20px)}
-    100% {transform: translateX(0)}
-  }
-
-  @keyframes center {
-    0% {transform: scale(1)}
-    75% {transform: scale(1.5)}
-    100% {transform: scale(1)}
-  }
-
-</style>
 
 # Programmierbeispiel
 
@@ -529,5 +371,3 @@ transition: slide-up
   <p class="code-right" >&#62;</p>
   <br/>
 </a>
-
-<PageNr/>

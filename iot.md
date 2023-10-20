@@ -123,7 +123,7 @@ Gerade für Menschen die etwas Erfahrung mit Python (aber auch in anderen Sprach
 <br />
 Kleiner, sparsamer Microcontroller. Vielfältig da viele IO Aus- und Eingänge.
 
-<img src="https://assets.raspberrypi.com/static/74679d6c81ffc5503a20b64feae2ed4f/2b8d7/pico-rp2040.webp" alt = "micro:bit v2" class = "hardware-picture"/>
+<img src="https://assets.raspberrypi.com/static/74679d6c81ffc5503a20b64feae2ed4f/2b8d7/pico-rp2040.webp" class = "hardware-picture"/>
 
 <br>
 <br>
@@ -270,8 +270,6 @@ Auf Machine Learning spezialisiertes Board. Später mehr dazu.
 * TPU
 
 ---
-hideInToc: true
----
 
 ## Specs Coral Dev Board Micro
 
@@ -332,7 +330,6 @@ hideInToc: true
 
 # Embedded python
 
-<div class = "text-center">
 ```mermaid
 flowchart TD
     A[Operation System]
@@ -343,7 +340,6 @@ flowchart TD
     E -- Yes --> F["🎉" Nice]
     E -- NO --> G["🛠️"use Rust or C/C++]
 ```
-</div>
 
 ---
 

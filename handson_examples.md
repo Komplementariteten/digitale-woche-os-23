@@ -1,12 +1,3 @@
-<style>
-    .qr_code {
-        position: relative;
-        float: right;
-        width: 20%;
-        margin-right: 10%
-    }
-</style>
-
 # Module und Pakete
 Auf existierende Funktionalitäten zugreifen über Pakete
 
@@ -33,7 +24,7 @@ pip install 'package_name'
 # Pakete nutzen
 <br/>
 Installierte Pakete einbinden über <em>import</em> statetement
-<br/>
+
 ```py
     import os   # Funktionen zur Interaktion mit Betriebssystem
     
@@ -41,8 +32,9 @@ Installierte Pakete einbinden über <em>import</em> statetement
     cwd = os.getcwd()
     print("Wir sind im Verzeichnis: " + cwd)
 ```
-<br/>
+
 Ausgabe:
+
 ```console
     Wir sind im Verzeichnis: C:\digitale-woche-os
 ```
@@ -54,12 +46,14 @@ Ausgabe:
 <br/>
 Vielgenutzte Pakete mit Alias importieren
 <br/>
+
 ```py
     import numpy as np   # Funktionen für Datenverarbeitung
     
     summed_values = np.sum([20, 22])
     print("Die Antwort ist " + str(summed_values))
 ```
+
 <br/>
 Ausgabe:
 ```console
@@ -71,7 +65,7 @@ Ausgabe:
 # Programmierbeispiele
 Pygame Bibliothek bietet Einstieg in Spieleprogrammierung
 
-<img src="/qr-code_pygame.png" alt = "QR pygame" class = "qr_code"/>
+<img src="public/qr-code_pygame.png" alt = "QR pygame" class = "qr_code"/>
 <br/>
 <br/>
 <br/>
@@ -87,7 +81,7 @@ Code verfügbar auf <br/>
 # Beispiel Datenanalyse
 Datenanalyse mit Numpy und Matplotlib
 
-<img src="/qr-code_data_analysis.png" alt = "QR data analysis" class = "qr_code"/>
+<img src="public/qr-code_data_analysis.png" alt = "QR data analysis" class = "qr_code"/>
 <br/>
 <br/>
 <br/>
