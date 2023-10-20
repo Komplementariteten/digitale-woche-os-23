@@ -447,7 +447,7 @@ $\hat{y} = p_0 + p_1 x_1 + p_2 x_2 + \dotsc + p_n x_n$
 
 $\vec{p} = (X^T X)^{-1} X^T \vec{y}$ 
 
-[Example](../src/ml_linreg/main.py)
+[Example](Example/ml_linreg/main.py)
 
 2. Logistische Regression
 
@@ -458,7 +458,7 @@ $y =\begin{cases}
 
 $\hat{p}(X) = \frac{e^{\beta_0+\beta_1X}}{1+e^{\beta_0+\beta_1X}}$ 
 
-[Example](../src/ml_logreg/main.py)
+[Example](Example/ml_logreg/main.py)
 
 ---
 
@@ -480,7 +480,6 @@ Wie viel Labrador ist ein Saluki?
 ---
 
 ## Keras
-<div style="columns: 2">
 <img style="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/200px-Keras_logo.svg.png" />
 
 Eine Open Source Python Bibliothek die Schnittstellen f&uuml;r Neuronale Netze bietet. Keras bietet h&auml;ufig verwendete Bausteine f&uuml;r Neuronale Netze wie:
@@ -488,7 +487,7 @@ Eine Open Source Python Bibliothek die Schnittstellen f&uuml;r Neuronale Netze b
 - Verlust oder Kosten Funktionen (objectives)
 - Aktivierungs Funktionen (activation functions)
 - Optimierer (optimizer)
-</div>
+
 ```python
 from tensorflow.keras import layers
 model = keras.Sequential([
@@ -544,17 +543,6 @@ flowchart TB
     end
 ```
 ---
-# Hands on
-
-<a class="code-example" target="_blank">
-  <p class="code-left" >&#60;</p>
-  <p class="code-center" >/</p>
-  <p class="code-right" >&#62;</p>
-  <br/>
-</a>
-
----
-
 
 # Referenzen und N&uuml;tzliches
 
