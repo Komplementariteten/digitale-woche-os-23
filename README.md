@@ -9,8 +9,14 @@ Unterlagen zum Python Workshop auf der digitalen Woche Osnabrück 2023!
 Praktika, Abschlussarbeiten und Jobs unter https://jobs.rosen-group.com/Jobs
 
 ### Inhalte
+
 - Vortragsfolien
+	- [Python Basics](python.md)
+	- [Handson Python](handson_examples.md)
+	- [IoT](iot.md)
+
 - Codebeispiele
+	- [Example](Examples/)
 
 ### Beschreibung
 In unserer zunehmend digitalisierten Welt ist das Verständnis von Programmierung und der Umgang mit Computern eine grundlegende Fähigkeit, die immer mehr an Bedeutung gewinnt. Die Fähigkeit des Programmierens ermöglicht es uns, die digitale Welt zu verstehen und zu gestalten und gibt uns einen Einblick in die Funktionsweise von Apps und Webseiten. 
