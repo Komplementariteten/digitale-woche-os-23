@@ -1,5 +1,6 @@
 # digital-woche-os-23
-Unterlagen zum Python Workshop auf der digitalen Woche Osnabrück 2023!
+Unterlagen zum [Python Workshop](https://digitalewoche-osnabrueck.de/veranstaltungen/python-workshop-von-den-grundlagen-bis-zur-kuenstlichen-intelligenz/) auf der [digitalen Woche Osnabrück](https://digitalewoche-osnabrueck.de/) 2023!
+
 
 ### Kontakt
 - Oliver - osiegemund@rosen-group.com
