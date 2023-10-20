@@ -184,7 +184,7 @@ Vergleichbar mit Homecomputer, mit GPU und Betriebssystem.
 <br>
 <br>
 
-<img src="/Raspberry_Pi_4_Model_B_-_Top.jpg" alt = "Raspberry PI 4" class = "hardware-picture"/>
+<img src="public/Raspberry_Pi_4_Model_B_-_Top.jpg" alt = "Raspberry PI 4" class = "hardware-picture"/>
 
 * Schnelle CPU
 * ~ 45-100 €
@@ -329,8 +329,6 @@ hideInToc: true
 </table>
 
 ---
-hideInToc: true
----
 
 # Embedded python
 
@@ -423,10 +421,9 @@ Auf TensorFlow spezialisierter Beschleuniger-Microcontroller.
 > Multilineare Abbildung von Vektoren auf einen Vektor mit der universellen Eigenschaft: 
 > Ein elementarer Tensor (oder einfacher Tensor) bildet auf einen Zahlenwert (Skalar) ab
 
-<br />
 ```python
->>> import tensorflow as tf
->>> tf.constant(42)
+import tensorflow as tf
+tf.constant(42)
 <tf.Tensor: shape=(), dtype=int32, numpy=42>
 
 >>> t = tf.constant([[1., 2., 3.], [4., 5., 6.]])
